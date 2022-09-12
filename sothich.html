@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<meta charset="UTF-8">
+<title>Simple Form</title>
+<style> 
+  .form-1 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-top: 15px solid #D5FEFF;
+    border-bottom: 15px solid #D5FEFF;
+    border-left: 30px solid #D5FEFF;
+    border-right: 30px solid #D5FEFF;
+  }
+
+  .form-1 h3 {
+    text-align: center;
+    background-color: #FF4B00;
+    color: white;
+    font-weight: 400;
+    width: 98%;
+    margin: 0 auto 10px auto;
+  }
+
+  span {
+    padding: 10px;
+    margin-right: 10px;
+    color: blue;
+  }
+  .email {
+    margin-right: 45px;
+  }
+  input {
+    margin-bottom: 8px;
+  }
+  label {
+    margin-right: 12px;
+  }
+
+  label input {
+    color: #FF4B00;
+  }
+  .line-2 {
+    margin-left: 128.6px;
+  }
+
+  .game {
+    margin-left: -2px;
+  }
+  .movie {
+    margin-left: -9px;
+  }
+  .travel {
+    margin-right: 215px;
+  }
+
+  .hobby-main {
+    margin-left: 36px;
+  }
+  .hobby {
+    color: #FF4B00;
+  }
+
+  .form-2 {
+    background-color: #FFFDA8;
+    text-align: left;
+    width: 58%;
+    margin: auto;
+  }
+
+  .form-2 h3 {
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #D4FDD6;
+    color: blue;
+  }
+
+  .form-2 .address {
+    position: relative;
+    bottom: 14px;
+  }
+
+  .form-2 .textbox {
+    position: relative;
+    top: 14px;
+    left: 15px;
+    height: 60px;
+  }
+
+  .form-2 .select {
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+  }
+
+  .form-2 .DOB {
+    margin-left: -4px;
+  }
+
+  .form-2 .email-2 {
+    margin-left: 26px;
+  }
+
+  .form-2 .number-2 {
+    margin-left: -3px;
+  }
+
+  .form-2 .submit-2 {
+    margin-left: 97px;
+  }
+
+</style>
+</head>
+<body>
+<div class="form-1">
+  <div class="sub-form">
+    <h3>SỞ THÍCH CÁ NHÂN</h3>
+    <span>Họ và tên </span> <input type="text" size="35" name="yourname"> <br>
+    <span>Email</span> <input class="email" type="email" size="25" name=""> <br>
+    <span class="hobby-main">Sở thích</span>
+    <label class="hobby"><input  type="checkbox" name="hobby">Thể thao</label>
+    <label class="hobby"><input  type="checkbox" name="hobby">Âm nhạc</label>
+    <label class="hobby"><input  type="checkbox" name="hobby">Đọc sách</label> <br>
+    <label class="hobby"><input class="line-2" type="checkbox" name="hobby">Lướt web</label>
+    <label class="hobby"><input class="game" type="checkbox" name="hobby">Chơi game</label>
+    <label class="hobby"><input class="movie" type="checkbox" name="hobby">Điện ảnh</label> <br>
+    <label class="hobby travel line-2"><input class="" type="checkbox" name="hobby">Du lịch</label> <br>
+
+    <br>
+
+    <input type="submit" value="Gửi thông tin">
+    <input type="reset" value="Nhập lại">
+  </div>
+
+</div>
+
+<br><br>
+
+<div class="form-2">
+  <h3>ĐĂNG KÝ HỌC VIÊN</h3>
+  <span>Họ và tên </span> <input type="text" size="35" name="yourname"> <br>
+  <span>Ngày sinh </span> <input class="DOB" type="date" size="35" name="yourname"> <br>
+  <span>Giới tính</span>
+  <label><input type="radio" name="gender">Nam</label>
+  <label><input type="radio" name="gender">Nữ</label> <br>
+  <span class="address">Địa chỉ</span>
+  <input class="textbox" type="text" name="" size="40"> <br>
+  <span>Lớp</span>
+  <select name="class-select" class="select">
+    <option value="" disabled selected>Chọn lớp</option>
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+    <option value="">5</option>
+  </select> <br>
+  <span>Email</span>
+  <input class="email-2" type="Email"> <br>
+  <span>Điện thoại</span>
+  <input class="number-2" type="Number"> <br>
+
+  <input class="submit-2" type="submit" value="Đăng ký">
+  <input type="reset" value="Nhập lại">
+</div>
+
+</body>
+</html>
